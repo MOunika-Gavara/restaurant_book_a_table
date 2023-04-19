@@ -1,0 +1,29 @@
+.textfield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 200px;
+}
+
+.typography {
+    color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px
+}
+
+.date {
+    display: flex;
+    margin-left: 50px;
+    column-gap: 200px;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

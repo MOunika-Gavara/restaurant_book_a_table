@@ -1,0 +1,44 @@
+.typo {
+    margin: 30px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .card__content {
+    position: absolute;
+    padding-top: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+} */
+
+.bottom {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: inline-block;
+}
+
+.details {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px
+}

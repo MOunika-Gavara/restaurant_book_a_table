@@ -1,0 +1,23 @@
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    filter: brightness(80%);
+}
+.centered1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

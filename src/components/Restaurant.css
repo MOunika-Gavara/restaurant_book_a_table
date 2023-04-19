@@ -1,0 +1,31 @@
+.card__content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.bottom-left {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    margin-top: 230px;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.div1 {
+    margin-left:100px;
+    padding: 1rem;
+    cursor: pointer;
+}
